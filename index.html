@@ -239,33 +239,6 @@
 				</div>
 			</div>
 			<div class="row text-sm-left text-center" id="service__gap">
-
-				<div class="card col-lg-3 col-sm-6 service-grid" style="width:400px">
-					<img class="card-img-top img-fluid" src="images/s1.jpg" alt="Card image">
-					<div class="card-body">
-					  <h4 class="card-title text-capitalize text-dark my-sm-4 my-3">hot stone</h4>
-					  <p class="card-text">Negrar èla storia di uoini donne dediti alla Nullam dui dolor, sagittis ut nte ege</p>
-					</div>
-				  </div>
-
-				
-				<div class="col-lg-3 col-sm-6 service-grid mt-sm-0 mt-4">
-					<img src="images/s2.jpg" alt="" class="img-fluid">
-					<h4 class="text-capitalize text-dark  my-sm-4 my-3">aromatherapy</h4>
-					<p>Negrar èla storia di uoini donne dediti alla Nullam dui dolor, sagittis ut nte eget.</p>
-				</div>
-				<div class="col-lg-3 col-sm-6 service-grid mt-lg-0 mt-sm-5 mt-4">
-					<img src="images/s3.jpg" alt="" class="img-fluid">
-					<h4 class="text-capitalize text-dark  my-sm-4 my-3">facial peelings</h4>
-					<p>Negrar èla storia di uoini donne dediti alla Nullam dui dolor, sagittis ut nte eget.</p>
-				</div>
-				<div class="col-lg-3 col-sm-6 service-grid mt-lg-0 mt-sm-5 mt-4">
-					<img src="images/s4.jpg" alt="" class="img-fluid">
-					<h4 class="text-capitalize text-dark  my-sm-4 my-3">massages</h4>
-					<p>Negrar èla storia di uoini donne dediti alla Nullam dui dolor, sagittis ut nte eget.</p>
-				</div>
-			</div>
-			<div class="row text-sm-left text-center" id="service__gap">
 				<div class="col-lg-3 col-sm-6 service-grid">
 					<img src="images/s1.jpg" alt="" class="img-fluid">
 					<h4 class="text-capitalize text-dark my-sm-4 my-3">hot stone</h4>
@@ -288,10 +261,16 @@
 				</div>
 			</div>
 			
+			
+			
 		</div>
 	</div>
 	<!-- //services -->
 
+	
+
+		
+<!--//our services-->
 	<!-- video -->
 	<div class="video-agileits pb-5">
 		<div class="container pb-xl-5 pb-lg-3">
@@ -603,6 +582,24 @@
 		</div>
 	</div>
 	<!-- //gallery -->
+	<!--Instagram Integration-->
+	<div class="gallery pb-5" id="gallery">
+		<div class="container-fluid pb-xl-5 pb-lg-3">
+			<h3 class="text-capitalize font-weight-bold text-center title  mb-sm-5 mb-4">our Works</h3>
+            <!-- Place <div> tag where you want the feed to appear -->
+			<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+			<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+			    <script type="text/javascript">
+					/* curator-feed-default-feed-layout */
+					(function(){
+					var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+					i.src="https://cdn.curator.io/published/de1e522b-e138-44fe-a560-c7bebe5e6420.js";
+					e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+					})();
+				</script>
+		</div>
+	</div>
+
 
 	<!-- contact -->
 	<div class="mail" id="contact">
@@ -614,26 +611,26 @@
 						<div class="row">
 							<div class="col-md-6 wthree_contact_left_grid pr-md-0">
 								<div class="form-group">
-									<input type="text" name="name" class="form-control" placeholder="Name" required="">
+									<input type="text" name="name" id="name" class="form-control" placeholder="Name" required="">
 								</div>
 								<div class="form-group">
-									<input type="email" name="email" class="form-control" placeholder="Email" required="">
+									<input type="email" name="email" id="email" class="form-control" placeholder="Email" required="">
 								</div>
 							</div>
 							<div class="col-md-6 wthree_contact_left_grid">
 								<div class="form-group">
-									<input type="text" name="phone number" class="form-control" placeholder="Phone Number" required="">
+									<input type="text" name="phone number" id="phone number" class="form-control" placeholder="Phone Number" required="">
 								</div>
 								<div class="form-group">
-									<input type="text" name="subject" class="form-control" placeholder="Subject" required="">
+									<input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required="">
 								</div>
 							</div>
 						</div>
 						<div class="form-group">
-							<textarea name="message" placeholder="Message" class="form-control" required=""></textarea>
+							<textarea name="message" id="message" placeholder="Message" class="form-control" required=""></textarea>
 						</div>
 						<div class="submit-buttons">
-							<input type="submit" value="Submit">
+							<input type="submit" onclick="sendmessage()" value="Submit">
 							<input type="reset" value="Clear">
 						</div>
 					</form>
@@ -740,6 +737,9 @@
 	<script src="js/beauty_spa.js"></script>
 
 	<!-- //Js files -->
+
+	<!-- Telegram bot -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.3/jquery.min.js"></script>
 
 </body>
 
