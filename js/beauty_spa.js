@@ -2,7 +2,7 @@
 
  	// script for magnificPopup //
  	$(document).ready(function () {
- 		$('.popup-with-zoom-anim').magnificPopup({
+ 		$('.popup-with-zoom-anim').magnificPopup()({
  			type: 'inline',
  			fixedContentPos: false,
  			fixedBgPos: true,

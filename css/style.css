@@ -239,10 +239,18 @@ a.btn:hover {
   background-color: #000;
   z-index: 1;
 }
-
+.bubbles-1 h1{
+  text-align:center;
+}
 /*//banner text effect */
 
 /*-- about --*/
+
+.img_topcontainer{
+  display: flex;
+  height: 60%;
+  width: 60%;
+}
 
 .about-top {
   background: url(../images/bo1.jpg) no-repeat center;
@@ -348,6 +356,25 @@ ul.list-unstyled li {
 
 /*-- //treatments --*/
 
+.fixedcallicon {
+	background: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    position: fixed;
+    top: 43%;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    display: inline-block;
+    z-index: 99;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: all 1s ease;
+}
+.fixedcallicon i {width:60px;height:60px;text-align:center;}
+.fixedcallicon:hover {width:220px;background:#ff458c;}
+
 /*-- services --*/
 
 .service-grid h4 {
@@ -357,10 +384,8 @@ ul.list-unstyled li {
 /*-- //services --*/
 
 /*-- our services --*/
-adj{
-padding-left:5px;
-}
-img{
+
+/* img{
   height:150px;
   width:100%;
 }
@@ -418,7 +443,7 @@ div [class^="col-"]{
 }
 .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
   transform: scale3d(1, 1, 1);
-}
+} */
 /*-- //our services--*/
 
 /*-- video section --*/
