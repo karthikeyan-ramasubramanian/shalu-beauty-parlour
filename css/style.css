@@ -387,6 +387,11 @@ ul.list-unstyled li {
 /*-- //services --*/
 
 /*-- our services --*/
+/* .grey-bg {  
+  background-color: #F5F7FA;
+} */
+
+
 
 /* img{
   height:150px;
@@ -454,14 +459,14 @@ div [class^="col-"]{
   height: 100%;
   margin: 0;
   padding: 3px;
-  border-color: #ff00ff;
-  color: #ff00ff;
+  border-color: rgba(252, 61, 106, 0.75);
+  color: rgba(252, 61, 106, 0.75);
   background-color: white;
 }
 
 .btn-outline-pink:hover {
   color: #ffffff;
-  background-color: #ff00ff;
+  background-color: rgba(252, 61, 106, 0.75);
   box-shadow: none;
 }
 
@@ -502,6 +507,7 @@ div [class^="col-"]{
   top: -60%;
   left: 0;
   right: 0;
+  margin-top: 20px;
 }
 
 .agileits_modal_body2 iframe {
@@ -1332,6 +1338,27 @@ p.copy-right-grids a:hover {
   }
 }
 
+@media (min-width:1024px){
+  #mobileScreen{
+    display: none;
+  }
+}
+
+@media (max-width:768px) {
+  #largeScreen {
+    display: none;
+  }
+  #left{
+    margin-left: 5%;
+    margin-right: 35%;
+  }
+  #right{
+    margin-left: 35%;
+    margin-right: 5%;
+  }
+}
+
+
 @media (max-width: 1050px) {
   .contact-grid-agiles {
     right: 1%;
@@ -1914,5 +1941,4 @@ p.copy-right-grids a:hover {
     font-size: 15px;
   }
 }
-
 /*--//responsive--*/
