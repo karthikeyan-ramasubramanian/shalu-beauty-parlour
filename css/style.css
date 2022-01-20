@@ -454,8 +454,8 @@ div [class^="col-"]{
   height: 100%;
   margin: 0;
   padding: 3px;
-  border-color: pink;
-  color: pink;
+  border-color: #ff00ff;
+  color: #ff00ff;
   background-color: white;
 }
 
