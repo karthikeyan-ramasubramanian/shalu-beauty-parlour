@@ -477,9 +477,10 @@
 		</div>
 	</div>
 		<p id="overview"></p>
+		<br><br>
 	
 	<!-- video -->
-	<div class="video-agileits pb-5 ">
+	<div class="video-agileits pb-5">
 		<div class="container pb-xl-5 pb-lg-3 ">
 			<div class="agileits_modal_body2">
 				<iframe src="https://player.vimeo.com/video/123708006"></iframe>
@@ -650,8 +651,27 @@
 							     
 							</script>
 						
-							<button class="btn text-white contact_buttons contact_button contact_clr"  onclick="document.location='https://wa.me/918668179904?text=Hi'" style="background-color: greenyellow;"  type="button" type="button" type="button" type="button" id="msgWhatsapp">Send on Whatsapp</button>
-							
+							<button class="btn text-white contact_buttons contact_button contact_clr" style="background-color: greenyellow;"  type="button" type="button" type="button" type="button" id="msgWhatsapp">Send on Whatsapp</button>
+							<script>
+								document.getElementById("msgWhatsapp").addEventListener("click", function() {
+								
+							    (function($){
+									$.fn.getFormData = function(){
+										var data = {};
+										var dataArray = $(this).serializeArray();
+										for(var i=0;i<dataArray.length;i++){
+										data[dataArray[i].name] = dataArray[i].value;
+										}
+										return data;
+									}
+									})(jQuery);
+								var myWData = $("#myform").getFormData();							
+								
+								document.location='https://wa.me/918668179904?text='+myWData.name+'%0A'+myWData.email+'%0A'+myWData.phonenumber+'%0A'+myWData.subject+'%0A'+myWData.message;
+								
+								});
+							     
+							</script>
 							<button type="reset" id="clear" class="btn btn-secondary contact_buttons contact_clr">Clear</button>
 						</div>  
 					</form>
