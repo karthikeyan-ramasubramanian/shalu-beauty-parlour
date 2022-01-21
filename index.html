@@ -1116,10 +1116,10 @@
 	<div class="gallery pb-5" id="ourworks">
 		<div class="container-fluid pb-xl-5 pb-lg-3">
 			<h3 class="text-capitalize font-weight-bold text-center title  mb-sm-5 mb-4">our Works</h3>
-            <!-- Place <div> tag where you want the feed to appear -->
+           <!-- Place <div> tag where you want the feed to appear -->
 			<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
-			<!-- The Javascript can be moved to the end of the html page before the body tag -->
-			    <script type="text/javascript">
+		
+			   <script type="text/javascript">
 					/* curator-feed-default-feed-layout */
 					(function(){
 					var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
@@ -1135,19 +1135,19 @@
 			<h3 class="text-capitalize font-weight-bold text-center title  mb-sm-5 mb-4">contact us</h3>
 			<div class="row agileinfo_mail_grids">
 				<div class="col-lg-8 agileinfo_mail_grid_right">
-					<form action="#" method="post">
+					<form  id="myform" >
 						<div class="row">
 							<div class="col-md-6 wthree_contact_left_grid pr-md-0">
 								<div class="form-group">
 									<input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
 								</div>
 								<div class="form-group">
-									<input type="email" name="email" id="email" class="form-control" placeholder="Email" pattern="[^ @]*@[^ @]*" required>
+									<input type="text" name="email" id="email" class="form-control" placeholder="Email" required>
 								</div>
 							</div>
 							<div class="col-md-6 wthree_contact_left_grid">
 								<div class="form-group">
-									<input type="text" name="phone number" id="phone-number" class="form-control" placeholder="Phone Number" required>
+									<input type="text" name="phonenumber" id="phonenumber" class="form-control" placeholder="Phone Number" required>
 							    </div>
 								<div class="form-group">
 									<input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>
@@ -1159,6 +1159,31 @@
 						</div>
 						<div class="submit-buttons" id="submitted">
 							<button class="btn btn-primary" type="button" id="msg">Send Message</button>
+							<script>
+								document.getElementById("msg").addEventListener("click", function() {
+								alert("Sending your Message");
+							    (function($){
+									$.fn.getFormData = function(){
+										var data = {};
+										var dataArray = $(this).serializeArray();
+										for(var i=0;i<dataArray.length;i++){
+										data[dataArray[i].name] = dataArray[i].value;
+										}
+										return data;
+									}
+									})(jQuery);
+								var myData = $("#myform").getFormData();							
+								token = "5091533310:AAHToFKHG0N8FX7_U9r-6qHNhhDjZ9z9_hE";
+								chat_id = "1292016003";
+								$.get("https://api.telegram.org/bot"+token+"/sendMessage?text="+myData.name+'%0A'+myData.email+'%0A'+myData.phonenumber+'%0A'+myData.subject+'%0A'+myData.message+"&chat_id="+chat_id);
+								
+								alert("Your Message sent Successfully,We will soon contact you!!...");
+								});
+							     
+							</script>
+						
+							<button onclick="document.location='https://wa.me/918668179904?text=Hi'" style="background-color: greenyellow;" class="btn text-white" type="button" id="msgWhatsapp">Send on Whatsapp</button>
+							
 							<button type="reset" class="btn btn-secondary">Clear</button>
 						</div>  
 					</form>
