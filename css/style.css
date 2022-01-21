@@ -473,7 +473,9 @@ div [class^="col-"]{
 .btn-outline-pink:focus {
   box-shadow: none;
 }
+
 /* spacing between buttons */
+
 .other_services {
   padding: 5px 5px;
 }
@@ -1348,17 +1350,43 @@ p.copy-right-grids a:hover {
   #largeScreen {
     display: none;
   }
-  #left{
+  /* #left{
     margin-left: 5%;
     margin-right: 35%;
   }
   #right{
     margin-left: 35%;
     margin-right: 5%;
-  }
+  } */
+    .box__align{
+      display: inline-block;
+      width: 48%;
+      margin: 1%;
+    }
 }
 
 
+
+@media (max-width:768px){
+  #msg,#msgWhatsapp,#clear{
+    margin:2% ;
+  }
+  .submit-buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+}
+
+@media (max-width:768px){
+  .contact_button_wat{
+    margin-top: 10px;
+
+  }
+
+}
+.contact_button_wat
 @media (max-width: 1050px) {
   .contact-grid-agiles {
     right: 1%;
