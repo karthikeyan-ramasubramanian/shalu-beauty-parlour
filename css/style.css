@@ -217,8 +217,7 @@ a.btn:hover {
 /* Essential CSS - Makes the effect work */
 
 .bubbles {
-  display: inline-block;
-  font-family: arial;
+   font-family: arial;
   position: relative;
 }
 
@@ -365,8 +364,7 @@ ul.list-unstyled li {
   height: 60px;
   line-height: 60px;
   overflow: hidden;
-  display: inline-block;
-  z-index: 99;
+   z-index: 99;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   transition: all 1s ease;
@@ -476,9 +474,7 @@ div [class^="col-"]{
 .btn-outline-pink:focus {
   box-shadow: none;
 }
-
 /* spacing between buttons */
-
 .other_services {
   padding: 5px 5px;
 }
@@ -609,8 +605,7 @@ a.button,
   background: #a9cf54;
   color: #fff;
   letter-spacing: 1px;
-  display: inline-block;
-  box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.38);
+   box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.38);
   border-radius: 25px;
   width: 100%;
   text-shadow: 0px 2px 2px #000;
@@ -691,8 +686,7 @@ a.button:hover,
 .check-box input[type="checkbox"] + label span:first-child {
   width: 15px;
   height: 15px;
-  display: inline-block;
-  border: 1px solid #555;
+   border: 1px solid #555;
   position: absolute;
   left: 0;
   top: 4px;
@@ -778,8 +772,7 @@ button.heading-w3ls {
 /*-- social-icons --*/
 
 ul.social-icons li {
-  display: inline-block;
-}
+ }
 
 .icon {
   vertical-align: top;
@@ -1130,12 +1123,10 @@ h2.logo-5 a span {
 } */
 
 .social li {
-  display: inline-block;
-}
+ }
 
 .social .link {
-  display: inline-block;
-  vertical-align: middle;
+   vertical-align: middle;
   position: relative;
   width: 40px;
   height: 40px;
@@ -1353,18 +1344,16 @@ p.copy-right-grids a:hover {
   #largeScreen {
     display: none;
   }
-  /* #left{
+  #left{
     margin-left: 5%;
-    margin-right: 35%;
-  }
+    margin-right: 55%;
+     }
   #right{
-    margin-left: 35%;
+    margin-left: 55%;
     margin-right: 5%;
-  } */
+     }
     .box__align{
       display: inline-block;
-      width: 48%;
-      margin: 1%;
     }
 }
 
@@ -1372,7 +1361,6 @@ p.copy-right-grids a:hover {
   #clear{
     margin-right: 10%;
   }
-}
 
 @media (max-width:768px){
   #msg,#msgWhatsapp,#clear{
