@@ -295,7 +295,7 @@ a.btn:hover {
 /*-- middle --*/
 
 .middle-sec {
-  background: url(../images/bg3.jpg) no-repeat center;
+  background: url(../image/appoint.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -502,7 +502,7 @@ div [class^="col-"]{
 /*-- video section --*/
 
 .video-agileits {
-  background: url(../images/bg6.jpg) no-repeat center;
+  background: url(../image/overview.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
