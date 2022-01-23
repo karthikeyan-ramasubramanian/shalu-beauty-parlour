@@ -34,15 +34,15 @@
 			}
 		</script> -->
 		<!-- preloader -->
-		<link rel="stylesheet" href="css/preloader.css">
+		
 		<script>
 			document.onreadystatechange = function() {
 				if (document.readyState !== "complete") {
 					document.querySelector("body").style.visibility = "hidden";
-					document.querySelector("#preloader").style.visibility = "visible";
+					document.querySelector("#loader").style.visibility = "visible";
 				} 
 				else {
-					document.querySelector("#preloader").style.display = "none";
+					document.querySelector("#loader").style.display = "none";
 					document.querySelector("body").style.visibility = "visible";
 					window.scrollTo(0, 0)  
 				}
@@ -59,11 +59,8 @@
 </head>
 
 <body data-spy="scroll" data-target=".fixed-top">
-	<!-- <div id="preloader" >
-		<div id="loader"></div>
-		
-	</div> -->
-	<div class="loader">
+	
+	<div class="loader" id="loader">
 		<div class="one"></div>
 		<div class="two"></div>
 		<div class="three"></div>
