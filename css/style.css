@@ -2108,8 +2108,8 @@ p.copy-right-grids a:hover {
   z-index: 999;
   /* left: 50%; */
   left: calc(50% - 32px);
-  width: 64px;
-  height: 64px;
+  width: 100px;
+  height: 100px;
   animation: loader 5s linear infinite;
 }
 .loader div{
