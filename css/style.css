@@ -2103,11 +2103,13 @@ p.copy-right-grids a:hover {
 
 /* preloader */
 .loader{
+  position: sticky;
   top: 50%;
-  left: 50% ;
-  width: 100px;
-  height: 100px;
-  position: absolute;
+  z-index: -1;
+  /* left: 50%; */
+  left: calc(50% - 32px);
+  width: 64px;
+  height: 64px;
   animation: loader 5s linear infinite;
 }
 .loader div{
