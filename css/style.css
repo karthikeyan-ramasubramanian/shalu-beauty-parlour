@@ -233,6 +233,15 @@ a.btn:hover {
 
 /*//banner text effect */
 
+.intro__title {
+  color: #fc3d6a;
+  font-size: 42px;
+  font-family: "Montez", cursive;
+  letter-spacing: 3px;
+  font-weight: bold;
+
+}
+
 /*-- about --*/
 
 .img_topcontainer {
@@ -2102,7 +2111,7 @@ p.copy-right-grids a:hover {
 /*--//responsive--*/
 
 /* preloader */
-.loader{
+.loader {
   position: sticky;
   top: 50%;
   z-index: 999;
@@ -2112,7 +2121,8 @@ p.copy-right-grids a:hover {
   height: 100px;
   animation: loader 5s linear infinite;
 }
-.loader div{
+
+.loader div {
   height: 5vw;
   max-height: 100%;
   width: 2vw;
@@ -2123,7 +2133,8 @@ p.copy-right-grids a:hover {
   overflow: auto;
   position: absolute;
 }
-.loader .one{
+
+.loader .one {
   transform: rotate(45deg);
   left: 0;
   right: 0;
@@ -2131,7 +2142,8 @@ p.copy-right-grids a:hover {
   bottom: 7.5vw;
   animation: animate 1s ease infinite;
 }
-.loader .two{
+
+.loader .two {
   transform: rotate(90deg);
   left: 5.5vw;
   right: 0;
@@ -2139,7 +2151,8 @@ p.copy-right-grids a:hover {
   bottom: 5.5vw;
   animation: animate 1s .125s ease infinite;
 }
-.loader .three{
+
+.loader .three {
   transform: rotate(135deg);
   left: 7.5vw;
   right: 0;
@@ -2147,7 +2160,8 @@ p.copy-right-grids a:hover {
   bottom: 0;
   animation: animate 1s .25s ease infinite;
 }
-.loader .four{
+
+.loader .four {
   transform: rotate(180deg);
   left: 5.5vw;
   right: 0;
@@ -2155,7 +2169,8 @@ p.copy-right-grids a:hover {
   bottom: 0;
   animation: animate 1s .375s ease infinite;
 }
-.loader .five{
+
+.loader .five {
   transform: rotate(225deg);
   left: 0;
   right: 0;
@@ -2163,7 +2178,8 @@ p.copy-right-grids a:hover {
   bottom: 0;
   animation: animate 1s .5s ease infinite;
 }
-.loader .six{
+
+.loader .six {
   transform: rotate(270deg);
   left: 0;
   right: 5.5vw;
@@ -2171,7 +2187,8 @@ p.copy-right-grids a:hover {
   bottom: 0;
   animation: animate 1s .625s ease infinite;
 }
-.loader .seven{
+
+.loader .seven {
   transform: rotate(315deg);
   left: 0;
   right: 7.5vw;
@@ -2179,7 +2196,8 @@ p.copy-right-grids a:hover {
   bottom: 0;
   animation: animate 1s .750s ease infinite;
 }
-.loader .eight{
+
+.loader .eight {
   transform: rotate(360deg);
   left: 0;
   right: 5.5vw;
@@ -2187,10 +2205,19 @@ p.copy-right-grids a:hover {
   bottom: 5.5vw;
   animation: animate 1s .875s ease infinite;
 }
-@keyframes loader{
-  0%{ transform: rotate(0deg); }
-  100%{ transform: rotate(-360deg); }
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
 }
-@keyframes animate{
-  50%{ box-shadow: inset 0vw 0vw 0vw .1vw #03cccf, 0vw 0vw 1.5vw 0vw #03cccf; }
+
+@keyframes animate {
+  50% {
+    box-shadow: inset 0vw 0vw 0vw .1vw #03cccf, 0vw 0vw 1.5vw 0vw #03cccf;
+  }
 }
