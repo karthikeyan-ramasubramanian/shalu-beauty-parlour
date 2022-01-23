@@ -537,7 +537,7 @@ a.button,
 .book-form input[type="submit"] {
   font-size: 16px;
   padding: 10px 0;
-  background: #a9cf54;
+  background: rgba(252, 61, 106, 0.75);
   color: #fff;
   letter-spacing: 1px;
   display: inline-block;
