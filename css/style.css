@@ -2105,7 +2105,7 @@ p.copy-right-grids a:hover {
 .loader{
   position: sticky;
   top: 50%;
-  z-index: -1;
+  z-index: 999;
   /* left: 50%; */
   left: calc(50% - 32px);
   width: 64px;
