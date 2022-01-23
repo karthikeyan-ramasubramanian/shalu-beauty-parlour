@@ -2221,3 +2221,12 @@ p.copy-right-grids a:hover {
     box-shadow: inset 0vw 0vw 0vw .1vw #03cccf, 0vw 0vw 1.5vw 0vw #03cccf;
   }
 }
+
+/*-- card hover --*/
+
+.card-hover:active,
+.card-hover:hover{
+  transform:scale(1.1) ;
+  
+}
+/*-- //card hover --*/
