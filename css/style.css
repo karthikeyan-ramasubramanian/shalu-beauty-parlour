@@ -1185,6 +1185,12 @@ p.copy-right-grids a:hover {
 /*-- //bottom-to-top --*/
 
 /*--responsive--*/
+@media (max-width: 320px) {
+ .card-hover{
+    height: 80%;
+    width: 80%;
+ }
+}
 
 @media (max-width: 1440px) {
   .wthree_text {
