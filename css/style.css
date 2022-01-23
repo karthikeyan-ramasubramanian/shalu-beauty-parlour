@@ -2107,7 +2107,7 @@ p.copy-right-grids a:hover {
   top: 50%;
   z-index: 999;
   /* left: 50%; */
-  left: calc(50% - 32px);
+  left: calc(50% - 50px);
   width: 100px;
   height: 100px;
   animation: loader 5s linear infinite;
