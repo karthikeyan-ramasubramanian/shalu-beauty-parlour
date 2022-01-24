@@ -144,7 +144,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
 /*-- banner --*/
 
 .banner-w3l {
-  background: url(/image/background.png) no-repeat right;
+  background: url(/image/background.jpg) no-repeat right;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1222,6 +1222,7 @@ p.copy-right-grids a:hover {
 @media (max-width: 1366px) {
   .banner-w3l {
     min-height: 730px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .banner-left-wthree {
@@ -1262,6 +1263,7 @@ p.copy-right-grids a:hover {
 
   .banner-w3l {
     min-height: 660px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .banner-left-wthree {
@@ -1294,6 +1296,7 @@ p.copy-right-grids a:hover {
 
   .banner-w3l {
     min-height: 620px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .banner-left-wthree {
@@ -1314,6 +1317,7 @@ p.copy-right-grids a:hover {
 
   .banner-w3l {
     min-height: 600px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .prices-top h3 {
@@ -1434,6 +1438,7 @@ p.copy-right-grids a:hover {
 
   .banner-w3l {
     min-height: 560px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .banner-left-wthree {
@@ -1506,10 +1511,12 @@ p.copy-right-grids a:hover {
 
   .banner-w3l {
     min-height: 530px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .banner-w3l {
     min-height: 540px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .about-top h3 {
@@ -1592,6 +1599,7 @@ p.copy-right-grids a:hover {
 
   .banner-w3l {
     min-height: 520px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .about-top h3 {
@@ -1672,6 +1680,7 @@ p.copy-right-grids a:hover {
 @media (max-width: 568px) {
   .banner-w3l {
     min-height: 490px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .banner-left-wthree h1 {
@@ -1757,6 +1766,7 @@ p.copy-right-grids a:hover {
 
   .banner-w3l {
     min-height: 470px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .about-top h3 {
@@ -1833,6 +1843,7 @@ p.copy-right-grids a:hover {
 
   .banner-w3l {
     min-height: 450px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .banner-left-wthree {
@@ -1863,6 +1874,7 @@ p.copy-right-grids a:hover {
 
   .banner-w3l {
     min-height: 440px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .about-top h3 {
@@ -1923,6 +1935,7 @@ p.copy-right-grids a:hover {
 
   .banner-w3l {
     min-height: 410px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .agileits_modal_body2 iframe {
@@ -2022,6 +2035,7 @@ p.copy-right-grids a:hover {
 
   .banner-w3l {
     min-height: 380px;
+    background: url(/image/background.jpg) no-repeat right;
   }
 
   .banner-left-wthree {
