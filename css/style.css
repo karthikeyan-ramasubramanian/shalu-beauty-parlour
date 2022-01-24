@@ -452,7 +452,13 @@ ul.list-unstyled li {
   top: -60%;
   left: 0;
   right: 0;
-  margin-top: 15%;
+  margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+  .agileits_modal_body2 {
+    top: -50%;
+  }
 }
 
 .agileits_modal_body2 iframe {
