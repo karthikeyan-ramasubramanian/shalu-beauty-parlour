@@ -666,6 +666,7 @@ a.button:hover,
   left: 0;
 }
 
+
 .card-header {
   background-color: #2b2b2b;
 }
@@ -1892,7 +1893,7 @@ p.copy-right-grids a:hover {
   }
 
   .right-treat-w3l {
-    padding-top: 5.5em;
+    padding-bottom: 3em;
   }
 }
 
