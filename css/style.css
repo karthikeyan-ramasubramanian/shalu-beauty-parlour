@@ -295,12 +295,14 @@ a.btn:hover {
 /*-- middle --*/
 
 .middle-sec {
-  background: url(../image/appoint.jpg) no-repeat center;
+  background:url(../image/appoint.jpg) no-repeat center;
+  
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
+ 
 }
 
 .middle-sec h4 {
@@ -452,7 +454,13 @@ ul.list-unstyled li {
   top: -60%;
   left: 0;
   right: 0;
-  margin-top: 20px;
+  margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+  .agileits_modal_body2 {
+    top: -50%;
+  }
 }
 
 .agileits_modal_body2 iframe {
@@ -659,6 +667,7 @@ a.button:hover,
   top: 0;
   left: 0;
 }
+
 
 .card-header {
   background-color: #2b2b2b;
@@ -1185,6 +1194,12 @@ p.copy-right-grids a:hover {
 /*-- //bottom-to-top --*/
 
 /*--responsive--*/
+@media (max-width: 320px) {
+ .card-hover{
+    height: 80%;
+    width: 80%;
+ }
+}
 
 @media (max-width: 1440px) {
   .wthree_text {
@@ -1886,7 +1901,7 @@ p.copy-right-grids a:hover {
   }
 
   .right-treat-w3l {
-    padding-top: 5.5em;
+    padding-bottom: 3em;
   }
 }
 
