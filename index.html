@@ -211,7 +211,7 @@
 		</div>
 	</div>
 	<!-- //treatments -->
-	<a href="tel:+919444985694" class="text-white font-weight-bold">
+	<a href="tel:+919597568036" class="text-white font-weight-bold">
 		<div class="fixedcallicon">
 			<i class="fa fa-phone"></i><span class="hide">Book Now</span>
 		</div>
@@ -466,7 +466,22 @@
 	<br><br>
 
 	<!--middle -->
-	<div class="middle-sec text-center py-5 ">
+	<script>
+		    $(function() {
+        $('.lazy').Lazy(
+			{
+        // your configuration goes here
+        scrollDirection: 'vertical',
+        effect: 'fadeIn',
+        visibleOnly: true,
+        onError: function(element) {
+            console.log('error loading ' + element.data('src'));
+        }
+    });
+    });
+	</script>
+
+	<div class="middle-sec text-center py-5 " >
 		<div class="container py-xl-5 py-md-3">
 			<h4 class="text-uppercase text-white">Great Skin doesn't happen by chance,
 				It happens by appointment</h4>
@@ -793,7 +808,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.3/jquery.min.js"></script>
 
 	<!-- lazyloader -->
-	<script type="text/javascript" src="jquery.lazy.min.js"></script>
+	 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+
+    <!-- cdnjs -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
 
 </body>
 
