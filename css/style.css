@@ -295,14 +295,14 @@ a.btn:hover {
 /*-- middle --*/
 
 .middle-sec {
-  background:url(../image/appoint.jpg) no-repeat center;
-  
+  background: url(../image/appoint.jpg) no-repeat center;
+
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
- 
+
 }
 
 .middle-sec h4 {
@@ -395,12 +395,13 @@ ul.list-unstyled li {
 }
 
 /*-- services --*/
-.card-hover{
+.card-hover {
   border-radius: 50%;
 }
+
 .service-grid h4 {
   letter-spacing: 1px;
-  
+
 }
 
 /*-- //services --*/
@@ -1198,10 +1199,10 @@ p.copy-right-grids a:hover {
 
 /*--responsive--*/
 @media (max-width: 320px) {
- .card-hover{
+  .card-hover {
     height: 80%;
     width: 80%;
- }
+  }
 }
 
 @media (max-width: 1440px) {
@@ -1356,14 +1357,6 @@ p.copy-right-grids a:hover {
     display: none;
   }
 
-  /* #left{
-    margin-left: 5%;
-    margin-right: 35%;
-  }
-  #right{
-    margin-left: 35%;
-    margin-right: 5%;
-  } */
   .box__align {
     display: inline-block;
     width: 48%;
@@ -2257,8 +2250,9 @@ p.copy-right-grids a:hover {
 /*-- card hover --*/
 
 .card-hover:active,
-.card-hover:hover{
-  transform:scale(1.1) ;
-  
+.card-hover:hover {
+  transform: scale(1.1);
+
 }
+
 /*-- //card hover --*/
